@@ -26,7 +26,7 @@ The example is run in python3 (3.7.3):
 In the folder `/datasets`, all the datasets are partial IP bearer networks of China offered by local operator. 
 * Net1(`418 nodes`) and Net2(`627 nodes`) are two metropolitan area network segments;
 * Net3(`247 nodes`) is a backbone network segment.
-* **!!!Note that all datasets are set as undirected networks.** </br>
+<br> **!!!Note that all datasets are set as undirected networks.** </br>
 
 ![image](https://user-images.githubusercontent.com/53416615/126338085-0626ef3f-3b6c-4fa6-8244-d7d840a78605.png)
 
