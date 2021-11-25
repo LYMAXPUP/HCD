@@ -23,17 +23,12 @@ The example is run in python3 (3.7.3):
 * pandas: 0.24.2
 
 ## Dataset Information
-All the datasets are partial IP bearer networks of China offered by local operator. 
+In the folder `/datasets`, all the datasets are partial IP bearer networks of China offered by local operator. 
 * Net1(`418 nodes`) and Net2(`627 nodes`) are two metropolitan area network segments;
 * Net3(`247 nodes`) is a backbone network segment.
+* **!!!Note that all datasets are set as undirected networks.** </br>
 
 ![image](https://user-images.githubusercontent.com/53416615/126338085-0626ef3f-3b6c-4fa6-8244-d7d840a78605.png)
-**!!!Note that all datasets are set as undirected networks.** </br>
-In the folder `/datasets`, e.g., the columns are: 
-* Net3.csv: <nodeA, nodeB, edge_weight>
-* Net3_label.csv: <node, role>
-* Net3_model.csv: <node, model>
-* Net3_port.csv: <node, port>
 
 ## Usage
 The algorithm is divided into three independent parts. And you can run each part in `../main.py`:
