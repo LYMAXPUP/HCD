@@ -16,7 +16,7 @@ The details of this method can be found in [paper](https://www.researchgate.net/
 }
 ```
 ## Requirements
-The example is run in python3 (3.7.3):
+The example runs in python3.7:
 * scikit-learn: 0.23.1
 * numpy: 1.18.5
 * networkx: 2.5
